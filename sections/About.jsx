@@ -7,7 +7,8 @@ import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
 const About = () => (
-  <section>
+  <section className={`${styles.paddings} relative z-10`}>
+    <div />
     About section
   </section>
 );
